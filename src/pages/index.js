@@ -1,7 +1,10 @@
+import Header from '../components/Header'
+
 export default function Home() {
   return (
     <div>
-      <p>This is index page</p>
+      <Header />
+      {/* <p>This is index page</p> */}
     </div>
   )
 }
