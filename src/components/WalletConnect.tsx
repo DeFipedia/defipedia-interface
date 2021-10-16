@@ -10,14 +10,14 @@ export default function WalletConnectButton() {
         {/* Modal */}
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-            <ModalContent mt='100' background='white' h='400px' w='360px'>
+            <ModalContent mt='100' h='400px' w='360px'>
                 <ModalHeader>
                     <Center>
                         Choose a Wallet
                     </Center>
                 </ModalHeader>
                 <ModalBody>
-                    <Stack mt={5} mb={10}>
+                    <Stack spacing={5} my={8} mx={2}>
                     <Button>
                     <img src='/metamask-fox.svg' height='25px' width='25px'/>Metamask</Button>
                     <Button>
