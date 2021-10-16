@@ -1,8 +1,9 @@
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 import {UseWalletProvider} from 'use-wallet'
+import { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }) {
+function App({ Component, pageProps }: AppProps) {
   return (
     <UseWalletProvider chainId={4}>
   <ChakraProvider>
@@ -14,4 +15,4 @@ function MyApp({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default App

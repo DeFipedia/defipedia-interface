@@ -10,7 +10,7 @@ export default function WalletConnectButton() {
         {/* Modal */}
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
-            <ModalContent mt='100' background='white' h='400px' w='360px'>
+            <ModalContent mt='100' h='400px' w='360px'>
                 <ModalHeader>
                     <Center>
                         Choose a Wallet
