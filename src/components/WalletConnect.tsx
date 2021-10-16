@@ -17,7 +17,7 @@ export default function WalletConnectButton() {
                     </Center>
                 </ModalHeader>
                 <ModalBody>
-                    <Stack mt={5} mb={10}>
+                    <Stack spacing={5} my={8} mx={2}>
                     <Button>
                     <img src='/metamask-fox.svg' height='25px' width='25px'/>Metamask</Button>
                     <Button>
