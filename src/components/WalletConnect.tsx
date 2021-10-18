@@ -6,7 +6,7 @@ export default function WalletConnectButton() {
 
     return(
         <>
-        <Button onClick={onOpen}>Connect Wallet</Button>
+        <Button onClick={onOpen} >Connect Wallet</Button>
         {/* Modal */}
         <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
