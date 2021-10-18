@@ -12,7 +12,7 @@ export default function Header() {
             <Badge colorScheme='purple'>Beta</Badge>
             <Spacer />
             <Box>
-            <Button onClick={toggleColorMode} mr={2}>
+            <Button onClick={toggleColorMode} mr={2} variant='outline'>
                 <MoonIcon />
             </Button>
             <WalletConnect/>
